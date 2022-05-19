@@ -1,0 +1,59 @@
+<!--Developed by Jason May 18, 2022.-->
+<!--San Miguel El Salvador.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JasonGomez</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="stylebtn.css">
+	<link rel="stylesheet" type="text/css" href="stylepopup.css">
+</head>
+<body>
+	<div class="card">
+		<div class="imgBx">
+			<img src="IMGLenovoZ5S_20220419_155106_DRO.jpg">
+		</div>
+		<div class="content">
+			<div class="details">
+				<h2>Jason Gomez<br><span>Estudiante de ingenieria informatica/Computer engineering student</span></h2>
+				<h2>Experiencias como programador/Experiences as a developer:<h2>
+				<div class="data">
+					<h3>Developing console applications from ubuntu and GUI applications from Windows 
+						system with robust Java and C++ languages for just over 3 years and processing 
+						data with different SQL tools. I also like web development, I love learning 
+						from others and applying it to my ideas, this page is the product of it.<br>
+						<span>Apart from what I learn in university classes, I dedicate myself to 
+							learning new development technologies and mastering them, one of my last 
+							interests has been microservices architecture technology.</span></h3>
+				</div>
+				<a href="https://www.linkedin.com/in/jason-gomez-211777209" style="--clr:#0084ff"><span>Linkedin</span><i></i></a>
+				<a href="https://github.com/jason7337" style="--clr:#eeff00"><span>GitHub</span><i></i></a>
+			</div>
+		</div>
+		<div class="container">
+			<div class="content2">
+				<h2>About me...</h2>
+				<p>I am from El Salvador, I study Computer Systems Engineering at the National University 
+					of El Salvador. I like computer science since high school. Currently, apart from 
+					studying, I work in a coffee production and processing company, in which I am an 
+					accounting assistant and for which I am also developing a dashboard with web technology 
+					for information management and control of income, production and sale of coffee in different 
+					qualities.</p>
+			</div>
+			<div class="toggleBtn"></div>
+		</div>
+	</div>
+	
+
+	<script>
+		let toggleBtn = document.querySelector('.toggleBtn');
+		let container = document.querySelector('.container');
+		toggleBtn.onclick = function(){
+			container.classList.toggle('active');
+		}
+	</script>
+</body>
+</html>
